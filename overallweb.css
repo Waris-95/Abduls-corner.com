@@ -1,0 +1,107 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+	color: #0f0;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	text-shadow: 2px 2px 0 #0f0;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 200px; /* Adjust the size as per your preference */
+    height: auto;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .profile-pic.clicked {
+    animation: glow 1s infinite;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px 5px #0f0;
+    }
+    50% {
+      box-shadow: 0 0 20px 10px #0f0;
+    }
+    100% {
+      box-shadow: 0 0 10px 5px #0f0;
+    }
+  }
+
+  .profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 200px; /* Adjust the size as per your preference */
+    height: auto;
+    box-shadow: 0 0 10px 5px #0f0;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .profile-pic.clicked {
+    animation: glow 1s infinite;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px 5px #0f0;
+    }
+    50% {
+      box-shadow: 0 0 20px 10px #0f0;
+    }
+    100% {
+      box-shadow: 0 0 10px 5px #0f0;
+    }
+  }
